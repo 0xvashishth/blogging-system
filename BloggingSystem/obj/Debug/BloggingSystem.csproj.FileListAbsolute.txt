@@ -1,0 +1,177 @@
+D:\wad lab\BloggingSystem\BloggingSystem\bin\BloggingSystem.dll.config
+D:\wad lab\BloggingSystem\BloggingSystem\bin\BloggingSystem.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\BloggingSystem.pdb
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\csc.exe
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\csc.exe.config
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\csc.rsp
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\csi.exe
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\csi.exe.config
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\csi.rsp
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.AppContext.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Console.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.Compression.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Net.Http.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Net.Sockets.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.ValueTuple.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XPath.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\vbc.exe
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\vbc.exe.config
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\vbc.rsp
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\VBCSCompiler.exe
+D:\wad lab\BloggingSystem\BloggingSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\wad lab\BloggingSystem\BloggingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\wad lab\BloggingSystem\BloggingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\wad lab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.AssemblyReference.cache
+D:\wad lab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.CoreCompileInputs.cache
+D:\wad lab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.CopyComplete
+D:\wad lab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.dll
+D:\wad lab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.pdb
+D:\wadlab\BloggingSystem\BloggingSystem\bin\BloggingSystem.dll.config
+D:\wadlab\BloggingSystem\BloggingSystem\bin\BloggingSystem.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\BloggingSystem.pdb
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\csc.exe
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\csc.exe.config
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\csc.rsp
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\csi.exe
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\csi.exe.config
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\csi.rsp
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.AppContext.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Console.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.Compression.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Net.Http.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Net.Sockets.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.ValueTuple.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XPath.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\vbc.exe
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\vbc.exe.config
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\vbc.rsp
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\VBCSCompiler.exe
+D:\wadlab\BloggingSystem\BloggingSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\wadlab\BloggingSystem\BloggingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\wadlab\BloggingSystem\BloggingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\wadlab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.AssemblyReference.cache
+D:\wadlab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.CoreCompileInputs.cache
+D:\wadlab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.CopyComplete
+D:\wadlab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.dll
+D:\wadlab\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.pdb
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\BloggingSystem.dll.config
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\BloggingSystem.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\BloggingSystem.pdb
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\csc.exe
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\csc.exe.config
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\csc.rsp
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\csi.exe
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\csi.exe.config
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\csi.rsp
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Console.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\vbc.exe
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\vbc.exe.config
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\vbc.rsp
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.AssemblyReference.cache
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.CoreCompileInputs.cache
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.csproj.CopyComplete
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.dll
+C:\Users\VASU\Downloads\BloggingSystem\BloggingSystem\obj\Debug\BloggingSystem.pdb

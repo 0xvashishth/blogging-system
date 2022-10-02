@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="BloggingSystem.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h3 class="my-0 mr-md-auto font-weight-bold">Sample Blog</h3>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" font-weight="bold" href="Default.aspx" runat="server">Home</a>
+            <a class="p-2 text-dark" href="Food/Home.aspx" runat="server">Food</a>
+            <a class="p-2 text-dark" href="Sports/Home.aspx" runat="server">Sports</a>
+            <a class="p-2 text-dark" href="Movies/Home.aspx" runat="server">Movies</a>
+        </nav>
+        <a class="btn btn-outline-primary mt-2 mr-2" href="Login/login.aspx">Login</a>
+
+        <a class="btn btn-outline-primary mt-2 mr-2" href="Login/regi.aspx">Sign up</a>
+    </div>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-8">
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-2">
+                        Category
+                        <hr />
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Food
+    <span class="badge badge-primary badge-pill">
+        <a class="p-2 text-dark" href="Food/Home.aspx" runat="server">
+            <asp:Label ID="LabFood" runat="server" Text=""></asp:Label>
+            
+        </a>
+    </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Sports
+    <span class="badge badge-primary badge-pill">
+        <a class="p-2 text-dark" href="Sports/Home.aspx" runat="server">
+            <asp:Label ID="LabSports" runat="server" Text=""></asp:Label>
+        </a>
+    </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Movies
+    <span class="badge badge-primary badge-pill">
+        <a class="p-2 text-dark" href="Movies/Home.aspx" runat="server">
+            <asp:Label ID="LabMovies" runat="server" Text=""></asp:Label>
+        </a>
+    </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
