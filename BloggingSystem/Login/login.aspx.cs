@@ -23,7 +23,7 @@ namespace BloggingSystem.Login
         {
             string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
             SqlConnection sqlconn = new SqlConnection(mainconn);
-
+            Console.WriteLine("Hello Before         aaa");
             try
             {
 
@@ -35,11 +35,12 @@ namespace BloggingSystem.Login
                 SqlDataReader sdr = cmd.ExecuteReader();
                 if (sdr.Read())
                 {
+                    Session["id"] = uid;
                     Response.Redirect("~/Admin/Admin-Panel.aspx");
                 }
                 else
                 {
-                    Label4.Text = "UserId & Password Is not correct Try again..!!";
+                    Label4.Text = "UserId & Password Is not correct Try again..!!!";
 
                 }
                 sqlconn.Close();

@@ -18,9 +18,16 @@
             <a class="p-2 text-dark" href="Sports/Home.aspx" runat="server">Sports</a>
             <a class="p-2 text-dark" href="Movies/Home.aspx" runat="server">Movies</a>
         </nav>
-        <a class="btn btn-outline-primary mt-2 mr-2" href="Login/login.aspx">Login</a>
-
-        <a class="btn btn-outline-primary mt-2 mr-2" href="Login/regi.aspx">Sign up</a>
+        <% if (token_check == "")
+            { %>
+        <a class="btn btn-outline-primary mt-2 mr-2" href="/Login/login.aspx">Login</a>
+        <a class="btn btn-outline-primary mt-2 mr-2" href="/Login/regi.aspx">Sign up</a>
+        <% }
+            else
+            { %>
+        <a class="btn btn-outline-primary mt-2 mr-2" ID="Label1"><%= token_check %></a>
+        <a class="btn btn-outline-primary mt-2 mr-2" href="/Logout/logout.aspx">Logout</a>
+        <%} %>
     </div>
 </head>
 <body>

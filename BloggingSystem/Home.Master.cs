@@ -12,6 +12,7 @@ namespace BloggingSystem
 {
     public partial class Home : System.Web.UI.MasterPage
     {
+        public string token_check = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
@@ -27,6 +28,16 @@ namespace BloggingSystem
                 LabMovies.Text = sdr.GetValue(2).ToString();
             }
             sqlconn.Close();
+            if (Session["id"] == null)
+            {
+                
+            }
+            else
+            {
+                var Label1 = Session["id"].ToString();
+                token_check = Label1;
+            }
+            DataBind();
         } 
     }
 }

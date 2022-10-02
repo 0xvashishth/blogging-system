@@ -14,7 +14,12 @@ namespace BloggingSystem.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!Page.IsPostBack)
+            if (Session["id"] == null)
+            {
+                Response.Redirect("~/Login/login.aspx");
+            }
+
+            if (!Page.IsPostBack)
             {
                 LabBPosteddate.Text = DateTime.Now.ToString();
                 DDLBCat.Items.Insert(0, "-- Select Category --");
