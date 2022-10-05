@@ -67,7 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin\Admin-Login.aspx" />
     <Content Include="Admin\Admin-Panel.aspx" />
     <Content Include="App_Data\Datas.mdf" />
     <Content Include="App_Data\Datas_log.ldf">
@@ -79,7 +78,6 @@
     <Content Include="Food\Home.aspx" />
     <Content Include="Food\pizza.aspx" />
     <Content Include="Login\login.aspx" />
-    <Content Include="Login\register.aspx" />
     <Content Include="Logout\Logout.aspx" />
     <Content Include="Movies\Home.aspx" />
     <Content Include="Blog\Blog.aspx" />
@@ -91,13 +89,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\Admin-Login.aspx.cs">
-      <DependentUpon>Admin-Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Admin-Login.aspx.designer.cs">
-      <DependentUpon>Admin-Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Admin\Admin-Panel.aspx.cs">
       <DependentUpon>Admin-Panel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,13 +144,6 @@
     </Compile>
     <Compile Include="Login\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login\register.aspx.cs">
-      <DependentUpon>register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login\register.aspx.designer.cs">
-      <DependentUpon>register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Logout\Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>

@@ -5,7 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.IO;
+using System.Net;
+using System.Net.Mail;
 using System.Configuration;
+using System.Text;
 
 namespace BloggingSystem
 {
@@ -29,6 +33,7 @@ namespace BloggingSystem
             sqlcomm.Parameters.AddWithValue("@Confirm_Password", txtConfirmPassword.Text);
             sqlcomm.ExecuteNonQuery();
             sqlconn.Close();
+
             Response.Redirect("~/Admin/Admin-Panel.aspx");
         }
     }
