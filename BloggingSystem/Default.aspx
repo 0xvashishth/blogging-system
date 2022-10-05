@@ -9,7 +9,7 @@
                     <p class="card-text">
                         <%#Eval("BDesc") %>
                     </p>
-                    <a href="/Blog/Blog?id=<%#Eval("Bid")%>">Read the Complete Article....</a>
+                    <a href="/Blog/Blog.aspx?id=<%#Eval("Bid")%>">Read the Complete Article....</a>
                     <div class="card-footer text-muted">
                         Posted On : <%#Eval("Bposteddate","{0: MMMM dd , yyyy}") %>
                         <a href="<%#Eval("Bcategory")%>/Home.aspx"><%#Eval("Bcategory") %></a>
