@@ -14,17 +14,25 @@ namespace BloggingSystem.Sports
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
-            SqlConnection sqlconn = new SqlConnection(mainconn);
-            string sqlquery = " select * from [dbo].[blog] where Bcategory='Sports'";
-            sqlconn.Open();
-            SqlCommand sqlcomm = new SqlCommand(sqlquery, sqlconn);
-            SqlDataAdapter sda = new SqlDataAdapter(sqlcomm);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            RepBlogDetails.DataSource = dt;
-            RepBlogDetails.DataBind();
-            sqlconn.Close();
+            try
+            {
+                string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
+                SqlConnection sqlconn = new SqlConnection(mainconn);
+                string sqlquery = " select * from [dbo].[blog] where Bcategory='Sports'";
+                sqlconn.Open();
+                SqlCommand sqlcomm = new SqlCommand(sqlquery, sqlconn);
+                SqlDataAdapter sda = new SqlDataAdapter(sqlcomm);
+                DataTable dt = new DataTable();
+                Console.WriteLine(dt);
+                sda.Fill(dt);
+                RepBlogDetails.DataSource = dt;
+                RepBlogDetails.DataBind();
+                sqlconn.Close();
+            }
+            catch (Exception ex)
+            {
+                Response.Write("Error : " + ex.Message);
+            }
         }
     }
 }

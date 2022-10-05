@@ -82,7 +82,7 @@
     <Content Include="Login\register.aspx" />
     <Content Include="Logout\Logout.aspx" />
     <Content Include="Movies\Home.aspx" />
-    <Content Include="Movies\Movies1.aspx" />
+    <Content Include="Blog\Blog.aspx" />
     <Content Include="Movies\Super.aspx" />
     <Content Include="Login\regi.aspx" />
     <Content Include="Sports\Cricket.aspx" />
@@ -175,12 +175,12 @@
     <Compile Include="Movies\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Movies\Movies1.aspx.cs">
-      <DependentUpon>Movies1.aspx</DependentUpon>
+    <Compile Include="Blog\Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Movies\Movies1.aspx.designer.cs">
-      <DependentUpon>Movies1.aspx</DependentUpon>
+    <Compile Include="Blog\Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
     </Compile>
     <Compile Include="Movies\Super.aspx.cs">
       <DependentUpon>Super.aspx</DependentUpon>
