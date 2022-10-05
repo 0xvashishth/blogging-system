@@ -34,6 +34,7 @@ namespace BloggingSystem
             sqlcomm.ExecuteNonQuery();
             sqlconn.Close();
 
+
             Response.Redirect("~/Admin/Admin-Panel.aspx");
         }
     }
