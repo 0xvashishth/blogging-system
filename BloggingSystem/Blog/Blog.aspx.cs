@@ -13,11 +13,12 @@ namespace BloggingSystem.Blog
 {
     public partial class Blog : System.Web.UI.Page
     {
-        public string token_check = "";
+        public string token_check1 = "";
         public string title, desc, url, id;
+        public int userId;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["id"] == null)
+  /*          if (Session["id"] == null)
             {
 
             }
@@ -25,29 +26,48 @@ namespace BloggingSystem.Blog
             {
                 var Label1 = Session["id"].ToString();
                 token_check = Label1;
-            }
-
+            }*/
+            
             id = Request.QueryString["id"];
-            string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
-            SqlConnection sqlconn = new SqlConnection(mainconn);
-            string sqlquery = " select * from blog where Bid="+id;
-            sqlconn.Open();
-            SqlCommand sqlcomm = new SqlCommand(sqlquery, sqlconn);
-            using (SqlDataReader reader = sqlcomm.ExecuteReader())
+            if (id != null)
             {
-                while (reader.Read())
+                string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
+                SqlConnection sqlconn = new SqlConnection(mainconn);
+                string sqlquery = " select * from blog where Bid="+id;
+                sqlconn.Open();
+                SqlCommand sqlcomm = new SqlCommand(sqlquery, sqlconn);
+                using (SqlDataReader reader = sqlcomm.ExecuteReader())
                 {
-                    title = (string)reader[1];
-                    desc = (string)reader[3];
-                    url = (string)reader[4];
+                    while (reader.Read())
+                    {
+                        userId = Convert.ToInt32(reader[6]);
+                        title = (string)reader[1];
+                        desc = (string)reader[3];
+                        url = (string)reader[4];
+                        
+                    }
+                }
+                SqlDataAdapter sda = new SqlDataAdapter(sqlcomm);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                RepBlogDetails.DataSource = dt;
+                RepBlogDetails.DataBind();
+                sqlconn.Close();
+                
+                if (Session["userid"] != null)
+                {
+                    if (userId == (int)Session["userid"])
+                    {
+                        var Label1 = Session["id"].ToString();
+                        token_check1 = Label1;
+                        
+                    }
                 }
             }
-            SqlDataAdapter sda = new SqlDataAdapter(sqlcomm);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            RepBlogDetails.DataSource = dt;
-            RepBlogDetails.DataBind();
-            sqlconn.Close();
+            else
+            {
+                Response.Redirect("/");
+            }
 
         }
 

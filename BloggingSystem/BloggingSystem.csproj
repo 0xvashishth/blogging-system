@@ -73,19 +73,13 @@
       <DependentUpon>Datas.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
-    <Content Include="Food\Dosa.aspx" />
-    <Content Include="Food\Food1.aspx" />
     <Content Include="Food\Home.aspx" />
-    <Content Include="Food\pizza.aspx" />
     <Content Include="Login\login.aspx" />
     <Content Include="Logout\Logout.aspx" />
     <Content Include="Movies\Home.aspx" />
     <Content Include="Blog\Blog.aspx" />
-    <Content Include="Movies\Super.aspx" />
     <Content Include="Login\regi.aspx" />
-    <Content Include="Sports\Cricket.aspx" />
     <Content Include="Sports\Home.aspx" />
-    <Content Include="Sports\Sports1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,33 +97,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Food\Dosa.aspx.cs">
-      <DependentUpon>Dosa.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Food\Dosa.aspx.designer.cs">
-      <DependentUpon>Dosa.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Food\Food1.aspx.cs">
-      <DependentUpon>Food1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Food\Food1.aspx.designer.cs">
-      <DependentUpon>Food1.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Food\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Food\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Food\pizza.aspx.cs">
-      <DependentUpon>pizza.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Food\pizza.aspx.designer.cs">
-      <DependentUpon>pizza.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.Master.cs">
       <DependentUpon>Home.Master</DependentUpon>
@@ -166,13 +139,6 @@
     <Compile Include="Blog\Blog.aspx.designer.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Movies\Super.aspx.cs">
-      <DependentUpon>Super.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Movies\Super.aspx.designer.cs">
-      <DependentUpon>Super.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Login\regi.aspx.cs">
       <DependentUpon>regi.aspx</DependentUpon>
@@ -181,26 +147,12 @@
     <Compile Include="Login\regi.aspx.designer.cs">
       <DependentUpon>regi.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sports\Cricket.aspx.cs">
-      <DependentUpon>Cricket.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Sports\Cricket.aspx.designer.cs">
-      <DependentUpon>Cricket.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Sports\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Sports\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Sports\Sports1.aspx.cs">
-      <DependentUpon>Sports1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Sports\Sports1.aspx.designer.cs">
-      <DependentUpon>Sports1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

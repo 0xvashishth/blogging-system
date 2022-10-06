@@ -28,13 +28,15 @@ namespace BloggingSystem.Admin
 
         protected void ButSubmit_Click(object sender, EventArgs e)
         {
-           
+
+                int userid = (int)Session["userid"];
                 string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
                 SqlConnection sqlconn = new SqlConnection(mainconn);
-                string sqlquery = "insert into [dbo].[blog] (Btitle,Bcategory,BDesc,BUrl,Bposteddate) values(@Btitle,@Bcategory,@BDesc,@BUrl,@Bposteddate)";
+                string sqlquery = "insert into [dbo].[blog] (Btitle,Bcategory,BDesc,BUrl,Bposteddate,userid) values(@Btitle,@Bcategory,@BDesc,@BUrl,@Bposteddate,@UserId)";
                 sqlconn.Open();
                 SqlCommand sqlcomm = new SqlCommand(sqlquery, sqlconn);
                 sqlcomm.Parameters.AddWithValue("@Btitle", TxtBlogTitle.Text);
+                sqlcomm.Parameters.AddWithValue("@UserId", userid);
                 sqlcomm.Parameters.AddWithValue("@Bcategory", DDLBCat.SelectedItem.Text.ToString());
                 sqlcomm.Parameters.AddWithValue("@BDesc", TxtBDesc.Text);
                 sqlcomm.Parameters.AddWithValue("@BUrl", TxtBurl.Text);

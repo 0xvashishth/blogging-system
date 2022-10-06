@@ -15,7 +15,7 @@
             <hr />
         </ItemTemplate>
     </asp:Repeater>
-    <% if (token_check == "")
+    <% if (token_check1 == "")
         { }
         else
         { %>

@@ -35,7 +35,7 @@ namespace BloggingSystem
             sqlconn.Close();
 
             string to = txtEmail.Text; //To address    
-             //From address    
+            string from = ""; //From address    
             MailMessage message = new MailMessage(from, to);
 
             string mailbody = "Your reegistration in sample blog is confirmed!";
@@ -45,7 +45,7 @@ namespace BloggingSystem
             message.IsBodyHtml = true;
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587); //Gmail smtp    
             System.Net.NetworkCredential basicCredential1 = new
-            
+            System.Net.NetworkCredential("", "");
             client.EnableSsl = true;
             client.UseDefaultCredentials = false;
             client.Credentials = basicCredential1;

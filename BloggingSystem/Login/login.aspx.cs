@@ -23,7 +23,6 @@ namespace BloggingSystem.Login
         {
             string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
             SqlConnection sqlconn = new SqlConnection(mainconn);
-            Console.WriteLine("Hello Before         aaa");
             try
             {
 
@@ -36,7 +35,8 @@ namespace BloggingSystem.Login
                 if (sdr.Read())
                 {
                     Session["id"] = uid;
-                    Response.Redirect("~/Admin/Admin-Panel.aspx");
+                    Session["userid"] = sdr[0];
+                    Response.Redirect("/");
                 }
                 else
                 {
